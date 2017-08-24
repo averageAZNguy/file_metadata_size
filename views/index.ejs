@@ -1,5 +1,15 @@
+<% include partials/header %>
 <p>Submit a file to view its filesize.</p>
 <form id="upload" enctype="multipart/form-data" method="POST" action="/new">
    <input id="fileupload" name="myfile" type="file" />
    <input type="submit" value="submit" id="submit" />
 </form>
+<h1>File Metadata Microservice</h1>
+	<h3>User Stories:</h3>
+			<ul>
+				<li><strong>User Story</strong>:  I can submit a FormData object that includes a file upload.</li>
+				<li><strong>User Story</strong>: When I submit something, I will receive the file size in bytes within the JSON response. </li>
+				
+			</ul>
+
+<% include partials/footer %>
