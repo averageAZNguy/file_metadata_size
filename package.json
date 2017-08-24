@@ -1,0 +1,25 @@
+{
+  "name": "metadata",
+  "version": "1.0.0",
+  "description": "File Metadata Microservice - uploadfile and will return file size in bytes in json format",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/averageAZNguy/file_metadata_size.git"
+  },
+  "author": "Quang-Thuy Hoang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/averageAZNguy/file_metadata_size/issues"
+  },
+  "homepage": "https://github.com/averageAZNguy/file_metadata_size#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "ejs": "^2.5.7",
+    "express": "^4.15.4",
+    "multer": "^1.3.0"
+  }
+}
